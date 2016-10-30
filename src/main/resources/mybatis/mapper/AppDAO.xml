@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fq.archetypes.dao.AppDAO">
+
+    <resultMap id="AppDAOMap" type="com.fq.archetypes.domain.MySQLUser">
+        <result column="Host" property="host"/>
+        <result column="User" property="user"/>
+    </resultMap>
+
+    <select id="service" resultMap="AppDAOMap">
+        SELECT *
+        FROM user
+        WHERE User = #{param};
+    </select>
+
+</mapper>
