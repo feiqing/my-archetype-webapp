@@ -2,7 +2,7 @@
 
 > Maven Web App Archetype: Maven WebApp 快速启动骨架
 
-- 使用
+### 使用
 1. `mvn archetype:create-from-project`
 2. `rm *.iml .idea`: delete ide file
 3. `cd target/generated-sources/archetype/`
