@@ -1,6 +1,6 @@
 package com.fq.archetypes.controller;
 
-import com.fq.archetypes.servie.IAppService;
+import com.fq.archetypes.service.IAppService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

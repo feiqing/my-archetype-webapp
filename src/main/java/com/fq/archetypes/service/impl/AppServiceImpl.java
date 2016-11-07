@@ -1,9 +1,9 @@
-package com.fq.archetypes.servie.impl;
+package com.fq.archetypes.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.fq.archetypes.dao.AppDAO;
 import com.fq.archetypes.domain.MySQLUser;
-import com.fq.archetypes.servie.IAppService;
+import com.fq.archetypes.service.IAppService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
