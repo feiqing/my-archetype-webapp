@@ -1,4 +1,4 @@
-package com.fq.archetypes;
+package com.cainiao.archetypes;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

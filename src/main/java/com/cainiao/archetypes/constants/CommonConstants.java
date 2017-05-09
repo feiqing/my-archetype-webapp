@@ -1,4 +1,4 @@
-package com.fq.archetypes.constants;
+package com.cainiao.archetypes.constants;
 
 /**
  * @author jifang

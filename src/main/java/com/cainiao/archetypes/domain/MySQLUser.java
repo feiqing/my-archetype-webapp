@@ -1,4 +1,4 @@
-package com.fq.archetypes.domain;
+package com.cainiao.archetypes.domain;
 
 /**
  * @author jifang

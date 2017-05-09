@@ -12,7 +12,7 @@
 
     <mvc:annotation-driven/>
 
-    <context:component-scan base-package="com.fq.archetypes.controller"/>
+    <context:component-scan base-package="com.cainiao.archetypes.controller"/>
 
     <mvc:annotation-driven>
         <mvc:message-converters register-defaults="false">

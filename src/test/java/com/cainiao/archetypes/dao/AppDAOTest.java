@@ -1,7 +1,7 @@
-package com.fq.archetypes.dao;
+package com.cainiao.archetypes.dao;
 
-import com.fq.archetypes.TestBase;
-import com.fq.archetypes.domain.MySQLUser;
+import com.cainiao.archetypes.TestBase;
+import com.cainiao.archetypes.domain.MySQLUser;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

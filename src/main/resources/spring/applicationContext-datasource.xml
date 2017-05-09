@@ -40,7 +40,7 @@
 
     <!-- 基于包扫描的mapper配置 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.fq.archetypes.dao"/>
+        <property name="basePackage" value="com.cainiao.archetypes.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 

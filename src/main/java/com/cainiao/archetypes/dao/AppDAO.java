@@ -1,6 +1,6 @@
-package com.fq.archetypes.dao;
+package com.cainiao.archetypes.dao;
 
-import com.fq.archetypes.domain.MySQLUser;
+import com.cainiao.archetypes.domain.MySQLUser;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
