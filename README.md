@@ -7,5 +7,5 @@
 2. `rm -rf *.iml .idea`: delete ide file
 3. `cd target/generated-sources/archetype/`
 4. `vi pom.xml`: change artifactId to you wanted name
-5. `maven clean install`
+5. `mvn clean install`
 6. `mvn archetype:generate -DarchetypeGroupId=com.cainiao.archetypes -DarchetypeArtifactId=my-archetype-webapp -DarchetypeVersion=0.0.3-SNAPSHOT -DarchetypeCatalog=internal`
